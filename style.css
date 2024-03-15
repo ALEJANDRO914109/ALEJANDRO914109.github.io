@@ -7,18 +7,25 @@ line-height : 1.8em;
 background : #E0D0B3;
 color : #333;
 }
+
+
 #header {
-height : 200px;
+height : 300px;
 margin-bottom : 0.5em;
-border-top : 10px solid #fca404;
+border-top : 10px solid #017C84;
 background : #F7A303 url(images/banner.jpg) no-repeat;
 color : #000;
+
+
 }
 #gutter {
 float : left;
-width : 3%;
+width : 0.5%;
 height : 1px;
 }
+
+
+
 #col1 {
 float : left;
 width : 20%;
@@ -26,6 +33,9 @@ margin-bottom : 1em;
 border-right : 0px solid #eee;
 padding-right : 3%;
 }
+
+
+
 #col2 {
 float : left;
 width : 33%;
@@ -33,6 +43,7 @@ margin-left : 3%;
 margin-bottom : 1em;
 border-right : 0px solid #eee;
 padding-right : 3%;
+
 }
 #col3 {
 float : left;
@@ -48,14 +59,14 @@ background : #E0D0B3;
 color : #666;
 }
 #navcontainer ul li a {
-padding : 15px;
+padding : 5px;
 color : #682715;
 background : transparent url(images/list-off.gif) no-repeat left center;
 text-align : left;
 text-decoration : none;
 }
 #navcontainer ul li a:hover {
-color : #006699;
+color : #682715;
 background : transparent url(images/list-on.gif) no-repeat left center;
 }
 #navcontainer ul li a#current {
@@ -139,29 +150,29 @@ height : 10px;
 border : none;
 display : block !important;
 }
+
+
 .img {
 float : left;
-padding : 4px;
+padding : 1px;
 margin : 4px;
-border : 1px solid #556b2f;
 }
 form { 
 margin: 0; 
 }
-input.search { 
-	width: 100px; 
-	border: none;
-	background: url(images/input.gif); 
-	padding: 4px; 
+.img1 {
+float : left;
+padding : 5px;
+margin : -6px;
+
 }
-input.login { 
-	width: 100px;
-	border: none; 
-	background: url(images/logininput.gif); 
-	padding: 4px; 
+form { 
+margin: 0; 
 }
+
+
 blockquote {
 font-weight : bold;
 font-style : italic;
-color : #E05222;
+color : #000000;
 }
